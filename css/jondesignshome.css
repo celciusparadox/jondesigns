@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: whitesmoke;
+
+
+}
+
+
+
+.bgimg {
+
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background-image: url(../images/landinglogotype.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+
+img#burger {
+	width: 2.5%;
+	position: fixed;
+	top: 25px;
+	right: 40px;
+	z-index: 80;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 500px) {
+	body {
+		background-color: cornsilk;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.bgimg {
+		display: none;
+	}
+
+
+
+	img#burger {
+		display: none;
+	}
+
+
+
+
+}

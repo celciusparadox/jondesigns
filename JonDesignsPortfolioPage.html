@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Portfolio Page</title>
+
+	<!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!--css link------------------------------------ -->
+	<link href="css/Portfoliopage.css" rel="stylesheet" type="text/css" />
+
+	<!--fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+	<!--scripts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// Add smooth scrolling to all links
+			$("a").on('click', function(event) {
+
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+					// Prevent  default anchor click behavior
+					event.preventDefault();
+
+					// Store hash
+					var hash = this.hash;
+
+					// Using jQuery's animate() method to add smooth page scroll
+					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function() {
+
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+					});
+				} // End if
+			});
+		});
+	</script>
+
+
+
+</head>
+
+<body>
+	<div class="nav">
+
+
+		<a href=index.html><img src="fonts%20and%20icons/left-arrow.png" id="crib"></a>
+		<div class="item">
+			<ul>
+				<li>
+					<a href="#1">Print</a>
+
+				</li>
+
+				<li>
+					<a href="#2">Web</a>
+
+				</li>
+				<li>
+					<a href="#3">Fine Art</a>
+
+				</li>
+
+				<li>
+					<a href="#4">About</a>
+
+				</li>
+
+
+
+
+			</ul>
+		</div>
+
+	</div>
+	<div class="wrapper">
+		<div class="section one" id="1">
+			<div class="container">
+				<div class="row">
+					<div class="col-1"><img src="images/bcthumb.png" id="movie"></div>
+					<div class="col-2"><img src="images/gwar1.png" id="magad"></div>
+
+
+
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-1"><img src="images/hmlthumb1.png" id="loan"></div>
+					<div class="col-2"><img src="images/studentloaninfo2.png" id="loan"></div>
+
+
+
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-1"><img src="images/gwar.png" id="titlespread"></div>
+					<div class="col-2"><img src="images/gwar2.png" id="titlespread"></div>
+
+
+
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-1"><img src="images/corpsespullquotescmyk.png" id="corpsea"></div>
+					<div class="col-2"><img src="images/corpsespullquotescmyk2.png" id="corpsea"></div>
+
+
+
+				</div>
+				<div class="row">
+					<div class="col-1"><img src="images/corpsespullquotescmyk3.png" id="corpsea"></div>
+					<div class="col-2"><img src="images/corpsespullquotescmyk4.png" id="corpsea"></div>
+
+
+
+				</div>
+			</div>
+
+		</div>
+		<div class="section two" id="2">
+			<div class="container">
+				<div class="row">
+					<div class="col-1"><img src="images/tractorthumb.png" id="movie"></div>
+					<div class="col-2"><img src="images/trakkktor2.png" id="magad"></div>
+
+
+
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-1"><img src="images/studentloaninfo2.png" id="loan"></div>
+					<div class="col-2"><img src="images/studentloaninfo2.png" id="loan"></div>
+
+
+
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-1"><img src="images/gwar.png" id="titlespread"></div>
+					<div class="col-2"><img src="images/gwar2.png" id="titlespread"></div>
+
+
+
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-1"><img src="images/corpsespullquotescmyk.png" id="corpsea"></div>
+					<div class="col-2"><img src="images/corpsespullquotescmyk2.png" id="corpsea"></div>
+
+
+
+				</div>
+				<div class="row">
+					<div class="col-1"><img src="images/corpsespullquotescmyk3.png" id="corpsea"></div>
+					<div class="col-2"><img src="images/corpsespullquotescmyk4.png" id="corpsea"></div>
+
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+</body>
+
+</html>
