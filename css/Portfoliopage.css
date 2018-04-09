@@ -21,6 +21,15 @@ img#crib {
 	z-index: 80;
 }
 
+h1 {
+	font-family: 'Bentley';
+	font-size: 4em;
+	color: #E779E3;
+	text-decoration: none;
+	text-align: center;
+
+}
+
 @font-face {
 	font-family: 'Bentley';
 	src: url('Bentley-Regular.ttf');
@@ -28,7 +37,7 @@ img#crib {
 
 a {
 	font-size: 1.6em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Bentley';
 
 }
 
@@ -60,7 +69,7 @@ a {
 .nav a {
 	color: #E779E3;
 	text-decoration: none;
-	font-family: Bentley;
+
 	display: block;
 	float: left;
 	text-align: center;
@@ -75,7 +84,7 @@ a {
 .section {
 	width: 100%;
 	position: relative;
-	height: 2000px;
+	height: 2800px;
 }
 
 .container {
