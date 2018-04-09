@@ -37,21 +37,11 @@ img#burger {
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	body {
-		background-color: cornsilk;
+		width: 100%;
 		margin: 0;
 		padding: 0;
-		width: 100%;
-	}
-	.bgimg {
-		display: none;
-	}
-
-
-
-	img#burger {
-		display: none;
 	}
 
 
