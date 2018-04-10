@@ -27,6 +27,7 @@ h1 {
 	color: #E779E3;
 	text-decoration: none;
 	text-align: center;
+	margin-top: 150px;
 
 }
 
@@ -91,7 +92,7 @@ a {
 	position: relative;
 	width: 100%;
 	max-width: 1366px;
-	margin-top: auto;
+	margin-top: 100px;
 	padding: 3% 3% 3% 3%;
 	box-sizing: border-box;
 	margin-bottom: 30px;
