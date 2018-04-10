@@ -181,7 +181,7 @@ img#corpsea {
 	h1 {
 		font-family: 'Bentley';
 		font-size: 3em;
-
+		padding-top: 80px;
 		color: #E779E3;
 		text-decoration: none;
 		text-align: center;
@@ -238,7 +238,7 @@ img#corpsea {
 		width: 100%;
 		position: relative;
 		height: 3000px;
-		margin-top: 50px;
+		margin-top: 20px;
 	}
 
 	.container {
