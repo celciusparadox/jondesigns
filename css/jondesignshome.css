@@ -42,10 +42,16 @@ img#burger {
 		width: 100%;
 		margin: 0;
 		padding: 0;
-		background-color: #000000;
+		background-image: url(../images/mobilelanding.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center center;
 	}
 
-
+	.bgimg {
+		display: none;
+	}
 
 	img#burger {
 		width: 10%;
