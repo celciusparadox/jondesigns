@@ -181,6 +181,7 @@ img#corpsea {
 	h1 {
 		font-family: 'Bentley';
 		font-size: 3em;
+
 		color: #E779E3;
 		text-decoration: none;
 		text-align: center;
@@ -236,22 +237,23 @@ img#corpsea {
 	.section {
 		width: 100%;
 		position: relative;
-		height: 2800px;
+		height: 3000px;
+		margin-top: 50px;
 	}
 
 	.container {
 		position: relative;
 		width: 100%;
-		max-width: 1366px;
-		margin-top: auto;
-		padding: 3% 3% 3% 3%;
+
+		margin: auto;
+		padding: 0;
 		box-sizing: border-box;
-		margin-bottom: 30px;
+
 
 	}
 
 	.row {
-		margin-top: 12%;
+		margin: auto;
 	}
 
 	.col-1 {
@@ -259,10 +261,10 @@ img#corpsea {
 		width: 100%;
 		float: none;
 		margin: 0;
-		padding-right: 1.5%;
-		padding-left: 2%;
-		padding-top: 1.5%;
-		padding-bottom: 1.5%;
+		padding-right: 1%;
+		padding-left: 1%;
+		padding-top: 1%;
+		padding-bottom: 1%;
 		box-sizing: border-box;
 	}
 
@@ -271,36 +273,61 @@ img#corpsea {
 		width: 100%;
 		float: none;
 		margin: 0;
-
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-top: 1%;
+		padding-bottom: 1%;
 		box-sizing: border-box;
-		padding-left: 1.5%;
-		padding-right: 2%;
-		padding-top: 1.5%;
-		padding-bottom: 1.5%;
 
 
 
 	}
 
 	img#movie {
-		width: 100%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
 	}
 
 	img#magad {
-		width: 100%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
 	}
 
 	img#loan {
-		width: 100%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
 	}
 
 	img#titlespread {
-		width: 100%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
 
 	}
 
 	img#corpsea {
-		width: 100%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
 	}
 
 
