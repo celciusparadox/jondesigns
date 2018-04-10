@@ -40,7 +40,7 @@ img#burger {
 		width: 100%;
 		margin: 0;
 		padding: 0;
-		background-image: url(../images/mobilelanding.png);
+		background-color: #000000;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -48,7 +48,11 @@ img#burger {
 	}
 
 	.bgimg {
-		display: none;
+		background-image: url(../images/mobilelanding.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center center;
 	}
 
 	img#burger {
