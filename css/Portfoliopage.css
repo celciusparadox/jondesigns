@@ -7,6 +7,12 @@ body {
 
 }
 
+@font-face {
+	font-family: 'Bentley';
+	src: url('Bentley-Regular.ttf');
+}
+
+
 .wrapper {
 	width: 80%;
 	margin-left: 10%;
@@ -31,10 +37,36 @@ h1 {
 
 }
 
-@font-face {
-	font-family: 'Bentley';
-	src: url('Bentley-Regular.ttf');
+h2 {
+	width: 100%;
+	font-size: 2em;
+	color: #E779E3;
+
+
+	text-align: left;
+
 }
+
+h3 {
+	width: 100%;
+	font-size: 2em;
+	color: #E779E3;
+
+
+	text-align: left;
+
+}
+
+p {
+	width: 100%;
+	height: 325px;
+	font-size: 1.2em;
+	color: #E779E3;
+	margin: 0;
+	text-align: left;
+	display: inline-block;
+}
+
 
 a {
 	font-size: 1.6em;
@@ -85,7 +117,7 @@ a {
 .section {
 	width: 100%;
 	position: relative;
-	height: 2800px;
+	height: 3000px;
 }
 
 .container {
@@ -118,7 +150,7 @@ a {
 .col-2 {
 	position: relative;
 	width: 50%;
-	float: left;
+	float: right;
 	margin: 0;
 
 	box-sizing: border-box;
@@ -150,6 +182,11 @@ img#titlespread {
 
 img#corpsea {
 	width: 100%;
+}
+
+img#ame {
+	width: 60%;
+	padding-left: 150px;
 }
 
 
@@ -188,6 +225,9 @@ img#corpsea {
 		text-align: center;
 		margin-top: 70px;
 
+	}
+	p {
+		width: 50%;
 	}
 	a {
 		font-size: 1.6em;
