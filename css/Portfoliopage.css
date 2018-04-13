@@ -12,6 +12,12 @@ body {
 	src: url(../fontsandicons/Bentley-Regular.ttf);
 }
 
+@font-face {
+	font-family: 'BenchNine';
+	src: url(../fontsandicons/BenchNine-Regular.ttf),
+	url(../fontsandicons/BenchNine-Light.ttf),
+	url(../fontsandicons/BenchNine-Bold.ttf);
+}
 
 .wrapper {
 	width: 80%;
@@ -45,6 +51,7 @@ h1 {
 
 h2 {
 	width: 100%;
+	font-family: 'BenchNine-Bold';
 	font-size: 1.5em;
 	color: #FEFEFE;
 	text-align: left;
