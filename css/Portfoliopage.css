@@ -13,11 +13,21 @@ body {
 }
 
 @font-face {
-	font-family: 'BenchNine';
-	src: url(../fontsandicons/BenchNine-Regular.ttf),
-	url(../fontsandicons/BenchNine-Light.ttf),
-	url(../fontsandicons/BenchNine-Bold.ttf);
+	font-family: 'BenchNine1';
+	src: url(../fontsandicons/BenchNine-Regular.ttf);
 }
+
+@font-face {
+	font-family: 'BenchNine2';
+	src: url(../fontsandicons/BenchNine-Light.ttf);
+}
+
+@font-face {
+	font-family: 'BenchNine3';
+	src: url(../fontsandicons/BenchNine-Bold.ttf);
+}
+
+
 
 .wrapper {
 	width: 80%;
@@ -42,6 +52,7 @@ img#crib {
 h1 {
 	font-family: 'Bentley';
 	font-size: 4em;
+	letter-spacing: 2px;
 	color: #E779E3;
 	text-decoration: none;
 	text-align: center;
@@ -51,8 +62,9 @@ h1 {
 
 h2 {
 	width: 100%;
-	font-family: 'BenchNine-Bold';
+	font-family: 'BenchNine3';
 	font-size: 1.5em;
+	letter-spacing: 1px;
 	color: #FEFEFE;
 	text-align: left;
 	margin-top: 30px;
@@ -72,6 +84,8 @@ h3 {
 
 p {
 	width: 100%;
+	font-family: 'BenchNine1';
+	letter-spacing: .7px;
 	height: 125px;
 	font-size: 1.2em;
 	color: #E779E3;
@@ -82,6 +96,8 @@ p {
 
 ul {
 	width: 100%;
+	font-family: 'BenchNine1';
+	letter-spacing: .7px;
 	height: 125px;
 	font-size: 1.2em;
 	color: #E779E3;
@@ -94,6 +110,7 @@ ul {
 a {
 	font-size: 1.6em;
 	font-family: 'Bentley';
+
 
 }
 
@@ -125,6 +142,7 @@ a {
 .nav a {
 	color: #E779E3;
 	text-decoration: none;
+	letter-spacing: .8px;
 
 	display: block;
 	float: left;
@@ -215,25 +233,25 @@ img#ame {
 }
 
 img#f {
-	width: 10%;
+	width: 7%;
 	margin-top: 8px;
 }
 
 img#i {
-	width: 10%;
-	padding-left: 30px;
+	width: 7%;
+	padding-left: 16px;
 	margin-top: 8px;
 }
 
 img#t {
-	width: 10%;
-	padding-left: 30px;
+	width: 7%;
+	padding-left: 16px;
 	margin-top: 8px;
 }
 
 img#y {
-	width: 10%;
-	padding-left: 30px;
+	width: 7%;
+	padding-left: 16px;
 	margin-top: 8px;
 }
 
