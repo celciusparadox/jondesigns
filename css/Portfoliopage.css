@@ -72,14 +72,20 @@ h2 {
 
 }
 
-h3 {
+
+
+h4 {
+
 	width: 100%;
+	font-family: 'BenchNine3';
 	font-size: 1.5em;
-	color: #E779E3;
+	letter-spacing: 1px;
+	color: #FEFEFE;
 	text-align: left;
-
+	margin-top: 30px;
+	margin-bottom: 15px;
+	margin-left: 0px;
 }
-
 
 
 p {
@@ -104,14 +110,6 @@ ul {
 	margin-top: 0;
 	text-align: left;
 	display: inline-block;
-}
-
-
-a {
-	font-size: 1.6em;
-	font-family: 'Bentley';
-
-
 }
 
 .nav {
@@ -140,6 +138,9 @@ a {
 }
 
 .nav a {
+	font-size: 1.6em;
+	font-family: 'Bentley';
+
 	color: #E779E3;
 	text-decoration: none;
 	letter-spacing: .8px;
@@ -153,7 +154,9 @@ a {
 }
 
 
-
+a {
+	margin: 0;
+}
 
 .section {
 	width: 100%;
@@ -224,6 +227,10 @@ img#titlespread {
 }
 
 img#corpsea {
+	width: 100%;
+}
+
+img#corpse1 {
 	width: 100%;
 }
 
