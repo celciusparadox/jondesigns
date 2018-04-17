@@ -180,6 +180,12 @@ a {
 
 }
 
+.texts {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
 .row {
 	margin-top: 12%;
 }
@@ -253,28 +259,32 @@ img#corpsea {
 }
 
 img#corpse1 {
-	width: 75%;
-	margin-left: 12.5%;
-	margin-right: 6%;
-	margin-top: 12.5%;
-	margin-bottom: 12.5%;
+	width: 100%;
+}
+
+img#roba {
+	width: 100%;
+}
+
+img#rja {
+	width: 100%;
+}
+
+img#alana {
+	width: 100%;
+}
+
+img#robb {
+	width: 100%;
 }
 
 img#gwarmock {
-	width: 75%;
-	margin-left: 12.5%;
-	margin-right: 6%;
-	margin-top: 12.5%;
-	margin-bottom: 12.5%;
+	width: 100%;
 
 }
 
 img#flat {
-	width: 75%;
-	margin-left: 12.5%;
-	margin-right: 6%;
-	margin-top: 12.5%;
-	margin-bottom: 12.5%;
+	width: 100%;
 }
 
 img#ame {
