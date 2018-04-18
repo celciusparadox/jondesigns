@@ -233,6 +233,138 @@ a {
 	margin-bottom: 12.5%;
 }
 
+.box#ac {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#ad {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#ae {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#af {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#ag {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#ah {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#ai {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#aj {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#ak {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#al {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#am {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#an {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#ao {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+/*-------box1----*/
+
 .box#ab {
 	transition: all .2s ease-in-out;
 	background-image: url(../images/bcthumb.png);
@@ -243,6 +375,177 @@ a {
 	transform: scale(1.1);
 	background-image: url(../images/bcthumbb.png);
 }
+
+/*-------box2----*/
+
+.box#ac {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/gwar1.png);
+	background-size: cover
+}
+
+.box#ac:hover {
+	transform: scale(1.1);
+	background-image: url(../images/gwarthumbb.png);
+}
+
+/*-------box3----*/
+
+.box#ad {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/hmlthumb1.png);
+	background-size: cover
+}
+
+.box#ad:hover {
+	transform: scale(1.1);
+	background-image: url(../images/infothumbb.png);
+}
+
+/*-------box4----*/
+
+.box#ae {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/freddythumb2.png);
+	background-size: cover
+}
+
+.box#ae:hover {
+	transform: scale(1.1);
+	background-image: url(../images/freddythumbb.png);
+}
+
+/*-------box5----*/
+
+.box#af {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/jdvisthumbe.png);
+	background-size: cover
+}
+
+.box#af:hover {
+	transform: scale(1.1);
+	background-image: url(../images/jvisthumbb.png);
+}
+
+/*-------box6----*/
+
+.box#ag {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/typsythumb.png);
+	background-size: cover
+}
+
+.box#ag:hover {
+	transform: scale(1.1);
+	background-image: url(../images/typsythumbb.png);
+}
+
+/*-------box7----*/
+
+.box#ah {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/tractorthumb.png);
+	background-size: cover
+}
+
+.box#ah:hover {
+	transform: scale(1.1);
+	background-image: url(../images/tractorthumbb.png);
+}
+
+/*-------box8----*/
+
+.box#ai {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/bentleythumb.png);
+	background-size: cover
+}
+
+.box#ai:hover {
+	transform: scale(1.1);
+	background-image: url(../images/bentb.png);
+}
+
+/*-------box9----*/
+
+.box#aj {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/chfin-5.jpg);
+	background-size: cover
+}
+
+.box#aj:hover {
+	transform: scale(1.1);
+	background-image: url(../images/chfin-5.jpg);
+}
+
+/*-------box10----*/
+
+.box#ak {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/tractorthumb.png);
+	background-size: cover
+}
+
+.box#ak:hover {
+	transform: scale(1.1);
+	background-image: url(../images/tractorthumbb.png);
+}
+
+/*-------box11----*/
+
+.box#al {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/waterthumb.png);
+	background-size: cover
+}
+
+.box#al:hover {
+	transform: scale(1.1);
+	background-image: url(../images/waterthumbb.png);
+}
+
+/*-------box12----*/
+
+.box#am {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/coheed.png);
+	background-size: cover
+}
+
+.box#am:hover {
+	transform: scale(1.1);
+	background-image: url(../images/coheedb.png);
+}
+
+/*-------box13----*/
+
+.box#an {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/mypastthumb.png);
+	background-size: cover
+}
+
+.box#an:hover {
+	transform: scale(1.1);
+	background-image: url(../images/jailthumbb.png);
+}
+
+/*-------box----*/
+
+.box#ao {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/bcthumb.png);
+	background-size: cover
+}
+
+.box#ao:hover {
+	transform: scale(1.1);
+	background-image: url(../images/bcthumbb.png);
+}
+
+/*-------box----*/
 
 img#movie {
 	width: 75%;
