@@ -3,7 +3,7 @@ body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	background-color: #000000;
+	background-color: #040404;
 
 }
 
@@ -39,7 +39,11 @@ sans-serif;*/
 }
 
 .extra {
-	margin-bottom: 1000px;
+	margin-bottom: 300px;
+}
+
+.more {
+	padding-bottom: 200px;
 }
 
 img#crib {
@@ -216,6 +220,28 @@ a {
 
 
 
+}
+
+
+.box#ab {
+
+	width: 75%;
+	height: 355px;
+	margin-left: 12.5%;
+	margin-right: 6%;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+}
+
+.box#ab {
+	transition: all .2s ease-in-out;
+	background-image: url(../images/bcthumb.png);
+	background-size: cover
+}
+
+.box#ab:hover {
+	transform: scale(1.1);
+	background-image: url(../images/bcthumbb.png);
 }
 
 img#movie {

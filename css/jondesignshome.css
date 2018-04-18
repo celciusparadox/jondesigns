@@ -13,7 +13,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
-	background-image: url(../images/landinglogotype.png);
+	background-image: url(../images/landinglogotypeb.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -48,7 +48,7 @@ img#burger {
 	}
 
 	.bgimg {
-		background-image: url(../images/mobilelanding.png);
+		background-image: url(../images/mobilelandingb.png);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
