@@ -1115,4 +1115,102 @@ img#y {
 
 	}
 
+	img#movie {
+		width: 75%;
+		margin-left: 12.5%;
+		margin-right: 6%;
+
+		margin-bottom: 12.5%;
+	}
+
+	img#magad {
+		width: 75%;
+		margin-left: 12.5%;
+		margin-right: 6%;
+
+		margin-bottom: 12.5%;
+	}
+
+	img#loan {
+		width: 75%;
+		margin-left: 12.5%;
+		margin-right: 6%;
+
+		margin-bottom: 12.5%;
+	}
+
+	img#titlespread {
+		width: 75%;
+		margin-left: 12.5%;
+		margin-right: 6%;
+		margin-top: 12.5%;
+		margin-bottom: 12.5%;
+	}
+
+	img#corpsea {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+		margin-bottom: 12.5%;
+	}
+
+	img#corpse1 {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+		margin-bottom: 12.5%;
+	}
+	img#robb {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+		margin-bottom: 12.5%;
+	}
+
+	img#roba {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+		margin-bottom: 12.5%;
+	}
+
+	img#rja {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+		margin-bottom: 12.5%;
+	}
+
+	img#alana {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+		margin-bottom: 12.5%;
+	}
+
+	img#wholething {
+
+		margin-bottom: 12.5%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+
+	img#gwarmock {
+		width: 100%;
+
+	}
+
+	img#flat {
+		width: 100%;
+	}
+
+
 }
