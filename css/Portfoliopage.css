@@ -636,10 +636,12 @@ img#alana {
 	margin-top: 12.5%;
 	margin-bottom: 12.5%;
 }
+
 img#wholething {
-	width:100%;
+	width: 100%;
 	margin-bottom: 12.5%;
 }
+
 img#robb {
 	width: 100%;
 
@@ -684,6 +686,9 @@ img#y {
 	margin-top: 8px;
 }
 
+.col-2 li {
+	width: 60%;
+}
 
 
 
@@ -697,10 +702,10 @@ img#y {
 		padding: 0;
 	}
 	img#crib {
-		width: 10%;
+		width: 6%;
 		position: fixed;
-		top: 15px;
-		left: 20px;
+		top: 10px;
+		left: 10px;
 		z-index: 80;
 	}
 	.wrapper {
@@ -722,7 +727,7 @@ img#y {
 
 	}
 	p {
-		width: 50%;
+		width: 100%;
 	}
 	a {
 		font-size: 1.6em;
@@ -744,13 +749,15 @@ img#y {
 	.nav li {
 		display: inline-block;
 		list-style-type: none;
+		margin: 0;
+		padding: 0;
 
 
 
 	}
 
 	.item {
-		margin-left: 30px;
+		margin-left: 0px;
 
 
 	}
@@ -818,9 +825,171 @@ img#y {
 
 
 	}
+	.col-2 li {
+		width: 80%;
+		line-height: 1.4em;
+	}
+	.box#ab {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
+	}
+
+	.box#ac {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+	}
+
+	.box#ad {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
+	}
+
+	.box#ae {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
+	}
+
+	.box#af {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
+	}
+
+	.box#ag {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
+	}
+
+	.box#ah {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+	}
+
+	.box#ai {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
+
+	}
+
+	.box#aj {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
+	}
+
+	.box#ak {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+	}
+
+	.box#al {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
+
+	}
+
+	.box#am {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
+
+	}
+
+	.box#an {
+
+		width: 250px;
+		height: 250px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0;
+		margin-bottom: 10%;
+
+
+	}
+
+
 
 	img#movie {
-		width: 90%;
+		width: 250px;
+		height: 250px;
 		margin-left: 5%;
 		margin-right: 5%;
 		padding: 0;
@@ -830,16 +999,19 @@ img#y {
 	}
 
 	img#magad {
-		width: 90%;
+		width: 250px;
+		height: 250px;
 		margin-left: 5%;
 		margin-right: 5%;
 		padding: 0;
 		margin-bottom: 10%;
 
+
 	}
 
 	img#loan {
-		width: 90%;
+		width: 250px;
+		height: 250px;
 		margin-left: 5%;
 		margin-right: 5%;
 		padding: 0;
@@ -848,7 +1020,8 @@ img#y {
 	}
 
 	img#titlespread {
-		width: 90%;
+		width: 250px;
+		height: 250px;
 		margin-left: 5%;
 		margin-right: 5%;
 		padding: 0;
@@ -858,14 +1031,22 @@ img#y {
 	}
 
 	img#corpsea {
-		width: 90%;
+		width: 250px;
+		height: 250px;
 		margin-left: 5%;
 		margin-right: 5%;
 		padding: 0;
 		margin-bottom: 10%;
 
+
 	}
 
+	img#ame {
+		width: 30%;
+		padding: 0;
+		margin-left: 35%;
+		margin-right: 35%;
 
+	}
 
 }
