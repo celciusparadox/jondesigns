@@ -1,8 +1,9 @@
 @charset "UTF-8";
 body {
 	width: 100%;
-	padding: 0;
-	margin: 0;
+	padding: 0px 0px 0px 0px;
+
+	margin: 0px 0px 0px 0px;
 	background-color: #040404;
 
 }
@@ -121,7 +122,7 @@ p {
 }
 
 ul {
-	width: 100%;
+	width: 87%;
 	font-family: 'BenchNine1';
 	letter-spacing: .7px;
 	height: 125px;
@@ -169,7 +170,7 @@ ul {
 	display: block;
 	float: left;
 	text-align: center;
-	padding: 3px 80px 0px 80px;
+	padding: 4px 80px 0px 80px;
 
 
 }
