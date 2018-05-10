@@ -1,0 +1,73 @@
+/*------project4about style------*/
+
+img#sky {
+	width: 100%;
+	margin: 0;
+}
+
+
+.aboutpage {
+
+	margin-left: 10%;
+	margin-right: 10%;
+
+	width: 80%;
+	margin-bottom: 20px;
+	margin-top: 100px;
+
+
+
+}
+
+.wordsabout {
+	background-color: white;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+
+
+
+}
+
+.wordsabout h3 {
+	font-family: 'Crimson Text', serif;
+	color: #cc883a;
+	margin-left: 20px;
+	margin-bottom: 0;
+	padding-top: 30px;
+}
+
+.wordsabout h2 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #5b6972;
+	margin-left: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.wordsabout p {
+	font-family: 'Fira Sans', sans-serif;
+	color: #303741;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+
+.list li {
+	font-family: 'Fira Sans', sans-serif;
+	color: #303741;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 30px;
+}
+
+
+/*--------palette-------*/
+
+/*
+color:#d8dde2;
+color:#cc883a;
+color:#cd5a54;
+color:#354254;
+color:#f7cf09;
+*/

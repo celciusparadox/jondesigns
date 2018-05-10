@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Watermans Surfside Grill</title>
+
+	<!--basic-->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!--mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--css-->
+	<link href="css/project4lunch.css" rel="stylesheet" type="text/css" />
+
+	<!--font for body/headings-->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// Add smooth scrolling to all links
+			$("a").on('click', function(event) {
+
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+					// Prevent  default anchor click behavior
+					event.preventDefault();
+
+					// Store hash
+					var hash = this.hash;
+
+					// Using jQuery's animate() method to add smooth page scroll
+					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function() {
+
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+					});
+				} // End if
+			});
+		});
+
+	</script>
+</head>
+
+
+<body>
+
+	<div class="header">
+		<img src="images/grilledfood.png" id="head"><img src="images/logo.png" id="seal">
+		<div class="nav">
+			<ul class="navigation">
+				<li><a href="project4.html" class="current">HOME</a> / </li>
+				<li><a href="project4menu.html">MENU</a> / </li>
+				<li><a href="#4">INFO</a> / </li>
+				<li><a href="project4gallery.html">GALLERY</a></li>
+
+			</ul>
+		</div>
+		<h1>Drinks</h1>
+	</div>
+	<div class="about">
+		<div class="pics"><img src="images/drinkhead.png" id="dr"></div>
+		<div class="words9">
+			<h3>delicious</h3>
+			<h2>DRINKS</h2>
+			<p>Original Waterman's Orange Crush<br><em>$6.73</em><br><br>Skinny Crush<br><em>$7.99</em><br><br>Tres Agavas Margarita<br><em>$8.99</em><br><br>Absolut Moscow Mule<br><em>$9.99</em><br><br>Premium and Imports<br><em>$5.00</em><br><br>Domestics<br><em>$4.50</em><br><br>Sea Glass Pinot Grigio<br><em>$7.00 per glass</em><br><em>$26.00 per bottle</em><br><br>Katherine's Vinyard Chardonnay<br><em>$7.00 per glass</em><br><em>$26.00 per bottle</em><br><br>Angeline Cabernet<br><em>$7.00 per glass</em><br><em>$26.00 per bottle</em><br><br>Dona Paula Malbac<br><em>$7.00 per glass</em><br><em>$26.00 per bottle</em>
+
+
+			</p>
+		</div>
+	</div>
+
+
+	<img src="images/footerwood.png" id="footer">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+	<script>
+		// Attach Smoove to elements and set default options
+		$(".words1, .words9, .words5").smoove({
+			offset: '15%',
+			// moveX is overridden to -1000px for ".bar" object
+			moveX: '1000px',
+		});
+
+	</script>
+	<script>
+		// Attach Smoove to elements and set default options
+		$(".words2, .words4").smoove({
+			offset: '15%',
+			// moveX is overridden to -1000px for ".bar" object
+			moveX: '-1000px',
+		});
+
+	</script>
+</body>
+
+</html>

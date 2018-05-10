@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Watermans Surfside Grill</title>
+
+	<!--basic-->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!--mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--css-->
+	<link href="css/project4lunch.css" rel="stylesheet" type="text/css" />
+
+	<!--font for body/headings-->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// Add smooth scrolling to all links
+			$("a").on('click', function(event) {
+
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+					// Prevent  default anchor click behavior
+					event.preventDefault();
+
+					// Store hash
+					var hash = this.hash;
+
+					// Using jQuery's animate() method to add smooth page scroll
+					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function() {
+
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+					});
+				} // End if
+			});
+		});
+
+	</script>
+</head>
+
+
+<body>
+
+	<div class="header">
+		<img src="images/grilledfood.png" id="head"><img src="images/logo.png" id="seal">
+		<div class="nav">
+			<ul class="navigation">
+				<li><a href="project4.html" class="current">HOME</a> / </li>
+				<li><a href="project4menu.html">MENU</a> / </li>
+				<li><a href="#4">INFO</a> / </li>
+				<li><a href="project4gallery.html">GALLERY</a></li>
+
+			</ul>
+		</div>
+		<h1>Events Calendar</h1>
+	</div>
+	<div class="about">
+		<div class="pics"><img src="images/events.png" id="event"></div>
+		<div class="words10">
+			<h3>make plans</h3>
+			<h2>WITH US</h2>
+			<p>Live Music by Popwire<br><em>Dec 01</em><br><br>live music by DJ Griffin<br><em>Dec 08</em><br><br>Live music by The Rocky 7 Band<br><em>Dec 15</em><br><br>Customer Appreciation Party with Dj Galaxy<br><em>Dec 22</em><br><br>Merry Christmas(closed)<br><em>Dec 25</em><br><br>Live Music by DJ Moer<br><em>Dec 29</em><br><br>No Happy Hour, Beach Bux Redeemable<br><em>Dec 31</em><br><br>New Year's Eve Blast<br><em>Dec 31</em><br><br>Happy New Year<br><em>Jan 1</em>
+			</p>
+		</div>
+	</div>
+
+
+	<img src="images/footerwood.png" id="footer">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+	<script>
+		// Attach Smoove to elements and set default options
+		$(".words1, .words10, .words5").smoove({
+			offset: '15%',
+			// moveX is overridden to -1000px for ".bar" object
+			moveX: '1000px',
+		});
+
+	</script>
+
+</body>
+
+</html>

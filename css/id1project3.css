@@ -1,0 +1,824 @@
+/*desktop layout*/
+
+body {
+
+	width: 100%;
+	margin: 0%;
+	background-image: linear-gradient(#0f0f0d, rgb(100, 100, 98) 0%, rgb(15, 15, 13) 100%);
+}
+
+.wrapper {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.container#bars {
+	width: 100%;
+	height: 768px;
+	background-image: url(../images/hands-outofbars2.jpg);
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+
+.container#r1 {
+	width: 100%;
+	height: 768px;
+	background-image: url(../images/hands-on-bars3.jpg);
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+
+.container#r2 {
+	width: 100%;
+	height: 768px;
+	background-image: url(../images/handsbendingbars2.jpg);
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+
+.container#r3 {
+	width: 100%;
+	height: 768px;
+	background-image: url(../images/free2a.png);
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+
+
+@font-face {
+	font-family: 'Vtks Money2';
+	src: url('../fonts and icons/Vtks Money2.ttf');
+}
+
+#pa {
+
+	color: #FCA310;
+	font-weight: 330;
+	top: 200px;
+	left: 30px;
+	position: relative;
+	font-family: 'Vtks Money2';
+	font-size: 6em;
+	line-height: 1.3em;
+	text-shadow: 6px 6px #0f0f0d;
+	padding: 0;
+	margin: 0;
+}
+
+#pb {
+
+	color: #FCA310;
+	font-weight: 330;
+	top: 160px;
+	left: 30px;
+	position: relative;
+	font-family: 'Vtks Money2';
+	font-size: 6em;
+	line-height: 1.3em;
+	text-shadow: 6px 6px #0f0f0d;
+	padding: 0;
+	margin: 0;
+}
+
+#pc {
+
+	color: #FCA310;
+	font-weight: 330;
+	top: 200px;
+	left: 30px;
+	position: relative;
+	font-family: 'Vtks Money2';
+	font-size: 6em;
+	line-height: 1.3em;
+	text-shadow: 6px 6px #0f0f0d;
+	padding: 0;
+	margin: 0;
+}
+
+#pd {
+
+	color: #FCA310;
+	font-weight: 330;
+	top: 100px;
+	left: 30px;
+	position: relative;
+	font-family: 'Vtks Money2';
+	font-size: 6em;
+	line-height: 1.3em;
+	text-shadow: 6px 6px #0f0f0d;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Crete Round', serif;
+	color: #a4d0c4;
+	font-weight: 550;
+	line-height: 1.3;
+	letter-spacing: 1.5px;
+	font-size: 2em;
+	margin: 0;
+}
+
+h4 {
+	font-family: 'Crete Round', serif;
+	color: #a4d0c4;
+	font-weight: 550;
+	margin-right: 10%;
+	position: relative;
+	margin-left: 12%;
+	top: 190px;
+	font-size: 1.5em;
+	line-height: 120%;
+	text-shadow: 4px 4px #0f0f0d;
+	display: inline-block;
+}
+
+.container#copy {
+	width: 100%;
+	position: relative;
+	margin: 0;
+}
+
+.row {
+	width: 100%;
+	position: relative;
+	margin-top: 70px;
+}
+
+.col-1 {
+	position: relative;
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding-right: 1.5%;
+	padding-left: 2%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	box-sizing: border-box;
+}
+
+.col-2 {
+	position: relative;
+	width: 50%;
+	float: right;
+	margin: 0;
+
+	box-sizing: border-box;
+	padding-left: 1.5%;
+	padding-right: 2%;
+	padding-top: 3.6%;
+	padding-bottom: 1.5%;
+
+
+
+}
+
+#indiana {
+	width: 480px;
+	height: 270px;
+	margin-top: 30px;
+	margin-left: 10%;
+	border: 0;
+}
+
+#indianb {
+	display: none;
+
+}
+
+#tim {
+	width: 480px;
+	height: 270px;
+	margin-top: 30px;
+	margin-left: 10%;
+	border: 0;
+	padding-bottom: 100px;
+}
+
+#timb {
+	display: none;
+}
+
+
+
+#willie {
+	width: 480px;
+	height: 270px;
+	margin-top: 30px;
+	margin-left: 10%;
+	border: 0;
+
+}
+
+#willieb {
+	display: none;
+}
+
+#rachael {
+	width: 480px;
+	height: 270px;
+	margin-top: 30px;
+	margin-left: 10%;
+	border: 0;
+
+}
+
+#rachaelb {
+	display: none;
+}
+
+/*.button#id2 {
+	text-decoration: none;
+	display: inline-block;
+	background: transparent;
+	padding: .01em .04em;
+	color: darkgoldenrod;
+
+	font-family: 'Hind', sans-serif;
+	outline: 3px darkgoldenrod;
+
+	transition: all ease-in-out 300ms;
+
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+
+.button#id2:hover {
+	outline: 3px solid darkgoldenrod;
+	outline-color: darkgoldenrod;
+	outline-offset: 1px;
+
+
+
+h5 {
+	font-size: 2.0em;
+	font-family: 'Hind', sans-serif;
+	color: whitesmoke;
+	text-decoration-line: none;
+
+	text-decoration: none;
+}
+
+img#menu {
+	width: 40px;
+
+}
+
+.button#ham {
+	text-decoration: none;
+	display: inline-block;
+	background: transparent;
+	padding: 4px;
+	color: darkgoldenrod;
+
+
+	outline: 3px darkgoldenrod;
+
+	transition: all ease-in-out 300ms;
+	position: absolute;
+	top: 15px;
+	right: 30px;
+
+
+}
+
+
+.button#ham:hover {
+	outline: 3px solid darkgoldenrod;
+	outline-color: darkgoldenrod;
+	outline-offset: 1px;
+
+}*/
+
+.bottom#first {
+	margin-top: 600px;
+}
+
+.bottom#second {
+	margin-top: 800px;
+}
+
+.bottom#third {
+	margin-top: 500px;
+}
+
+.bottom#fourth {
+	margin-top: 550px;
+}
+
+section#foot nav {
+	background: #0f0f0d;
+	width: 100%;
+	font-family: 'Crete Round', serif;
+	color: #a4d0c4;
+	font-weight: 600;
+	line-height: 1.3;
+	margin-top: 20%;
+
+}
+
+section#foot nav ul {
+	list-style: none;
+
+
+}
+
+section#foot nav ul li {
+	display: block;
+	float: left;
+	position: relative;
+	width: 8%;
+}
+
+section#foot nav a {
+	display: block;
+	padding: 10px;
+	color: #a4d0c4;
+	text-decoration: none;
+	margin-left: 17%;
+}
+
+section#foot nav a:hover {
+	background: none;
+	color: darkgoldenrod;
+}
+
+section#foot nav ul li ul {
+	display: none;
+	position: absolute;
+	background: none;
+	z-index: 100;
+}
+
+section#foot nav ul li ul li {
+	display: block;
+	width: 100%;
+	padding: 10px;
+}
+
+section#foot nav ul li:hover ul {
+	display: block;
+	width: 200%;
+	bottom: 100%;
+
+}
+
+.group:before,
+.group:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+
+
+
+span {
+	font-size: .7em;
+}
+
+section#foot {
+	margin-top: 20%;
+	margin-right: 0;
+}
+
+
+
+h6 {
+	font-family: 'Crete Round', serif;
+	color: #a4d0c4;
+	font-weight: 550;
+	margin-right: 111115%;
+	position: absolute;
+	margin-left: 7%;
+	margin-top: 53%;
+	font-size: 1.5em;
+	line-height: 120%;
+	text-shadow: 4px 4px #0f0f0d;
+}
+
+
+
+p {
+	font-family: 'Crete Round', serif;
+	color: #a4d0c4;
+	font-weight: 600;
+	line-height: 1.3;
+	letter-spacing: 1.5px;
+}
+
+.fun {
+	font-family: 'Crete Round', serif;
+	color: #a4d0c4;
+	font-weight: 600;
+	line-height: 1.3;
+	letter-spacing: 1.0;
+	text-decoration: none;
+}
+
+.fun:hover {
+	font-size: 1.3em;
+	color: darkgoldenrod;
+}
+
+
+
+
+
+/*mobile layout*/
+
+@media only screen and (max-width:600px) {
+	body {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #0f0f0d;
+	}
+	.wrapper {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.container#bars {
+		width: 100%;
+
+		height: 27vh;
+		background-image: url(../images/hands-outofbars2.jpg);
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		padding: 0;
+		margin: 0;
+
+	}
+
+	.container#r1 {
+		width: 100%;
+
+		height: 27vh;
+		background-image: url(../images/hands-on-bars3.jpg);
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		padding: 0;
+		margin: 0;
+	}
+
+	.container#r2 {
+		width: 100%;
+
+		height: 27vh;
+		background-image: url(../images/handsbendingbars2.jpg);
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		padding: 0;
+		margin: 0;
+	}
+
+	.container#r3 {
+		width: 100%;
+
+		height: 29vh;
+		background-image: url(../images/free2a.png);
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		padding: 0;
+		margin: 0;
+	}
+
+
+	@font-face {
+		font-family: 'Vtks Money2';
+		src: url('../fonts and icons/Vtks Money2.ttf');
+	}
+
+	#pa {
+		left: 7%;
+		width: 80%;
+		font-family: 'Vtks Money2', serif;
+		color: darkgoldenrod;
+		top: 15%;
+		font-size: 2em;
+		line-height: 1.3em;
+		text-shadow: 2px 2px #374d64;
+
+
+	}
+
+	#pb {
+
+		font-family: 'Vtks Money2', serif;
+		color: darkgoldenrod;
+		top: 15%;
+		left: 7%;
+		position: relative;
+		width: 80%;
+
+		font-size: 2em;
+		line-height: 1.3em;
+		text-shadow: 2px 2px #374d64;
+	}
+
+	#pc {
+
+		font-family: 'Vtks Money2', serif;
+		color: darkgoldenrod;
+		top: 15%;
+		left: 7%;
+		position: relative;
+
+		width: 80%;
+		font-size: 2em;
+		line-height: 1.3em;
+		text-shadow: 2px 2px #374d64;
+	}
+
+	#pd {
+		font-family: 'Vtks Money2', serif;
+		color: darkgoldenrod;
+		top: 15%;
+		left: 7%;
+		position: relative;
+		width: 80%;
+
+		font-size: 2em;
+		line-height: 1.3em;
+		text-shadow: 2px 2px #374d64;
+	}
+	h2 {
+		font-family: 'Crete Round', serif;
+		color: #a4d0c4;
+		padding-top: 7%;
+		padding-left: 7%;
+		padding-right: 7%;
+		line-height: 1.3;
+
+		font-size: 1.3em;
+		margin-top: 15px;
+		margin-bottom: 12px;
+
+
+
+	}
+	h4 {
+		font-family: 'Crete Round', serif;
+		color: #a4d0c4;
+		top: 30px;
+		line-height: 1.3;
+		font-size: .7em;
+		left: 44%;
+		margin-top: 6px;
+
+
+	}
+
+	h6 {
+		font-family: 'Crete Round', serif;
+		color: #a4d0c4;
+		font-weight: 600;
+		line-height: 1.3;
+		font-size: .7em;
+		margin-top: 70%;
+	}
+	p {
+		font-family: 'Crete Round', serif;
+		font-size: .7em;
+		color: #a4d0c4;
+		font-weight: 600;
+		line-height: 1.3;
+		letter-spacing: 1.5px;
+		margin: 0;
+		padding-bottom: 7%;
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+	.container#copy {
+		width: 100%;
+
+		margin: 0;
+	}
+
+	.row {
+		width: 100%;
+
+		margin: 0;
+	}
+
+	.col-1 {
+		position: relative;
+		width: 100%;
+		float: none;
+
+		margin-top: 2%;
+		margin-bottom: 2%;
+		padding-right: 2%;
+		padding-left: 2%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		box-sizing: border-box;
+	}
+
+	.col-2 {
+		position: relative;
+		width: 100%;
+		float: none;
+		margin: 0;
+
+		box-sizing: border-box;
+		padding-left: 1.5%;
+		padding-right: 2%;
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
+
+
+
+	}
+
+
+
+	#indiana {
+		display: none;
+	}
+	#indianb {
+		display: block;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		height: auto;
+		margin-top: 10%;
+		margin-bottom: 5%;
+
+	}
+
+	#tim {
+		display: none;
+
+	}
+
+	#timb {
+		display: block;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		height: auto;
+		margin-top: 10%;
+		margin-bottom: 5%;
+		position: relative;
+	}
+
+	#willie {
+		display: none;
+
+	}
+
+	#willieb {
+		display: block;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		height: auto;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+
+	#rachael {
+		display: none;
+
+
+	}
+
+	#rachaelb {
+		display: block;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		height: auto;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+
+	.bottom#first {
+		margin-top: 50px;
+		/*		margin-bottom: 10px;*/
+	}
+
+	.bottom#second {
+		margin-top: 50px;
+	}
+
+	.bottom#third {
+		margin-top: 50px;
+	}
+
+	.bottom#fourth {
+		margin-top: 50px;
+	}
+
+
+	section#foot nav {
+		background: #0f0f0d;
+
+		width: 100%;
+		font-family: 'Crete Round', serif;
+		color: #a4d0c4;
+		font-weight: 600;
+		line-height: 1.3;
+		clear: both;
+		padding-bottom: 10px;
+		padding-top: 10px;
+
+	}
+	section#foot nav ul {
+
+		margin: 0;
+		padding-bottom: 0%
+	}
+
+	section#foot nav a {
+		display: block;
+		padding: 0px;
+		color: #a4d0c4;
+		text-decoration: none;
+		margin-left: 17%;
+		font-size: .7em;
+	}
+	section#foot nav a:hover {
+		background: #0f0f0d;
+		color: darkgoldenrod;
+	}
+	section#foot nav ul li ul {
+		display: none;
+		position: absolute;
+		background: #0f0f0d;
+		z-index: 100;
+		padding-bottom: 0;
+	}
+	section#foot nav ul li ul li {
+		display: block;
+		width: 100%;
+		padding-bottom: 0;
+
+
+	}
+	section#foot nav ul li:hover ul {
+		display: none;
+		width: 200%;
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 0;
+		bottom: 100%;
+	}
+	.group:before,
+	.group:after {
+		content: "\0020";
+		display: block;
+		height: 0;
+		overflow: hidden;
+	}
+	.group:after {
+		clear: both;
+	}
+	.group {
+		zoom: 1;
+	}
+
+	section#foot nav ul li {
+		display: block;
+		float: left;
+		position: relative;
+		width: 30%;
+
+
+	}
+
+	footer {
+		margin-bottom: 10%;
+	}
+}
