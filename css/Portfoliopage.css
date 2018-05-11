@@ -656,6 +656,7 @@ img#vars {
 	margin-bottom: 12.5%;
 	margin-left: 15%;
 	margin-right: 15%;
+
 }
 
 
@@ -1218,6 +1219,14 @@ img#y {
 
 	img#flat {
 		width: 100%;
+	}
+	img#vars {
+		width: 70%;
+		margin-bottom: 12.5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top: 12.5%;
+
 	}
 
 
