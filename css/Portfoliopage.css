@@ -652,10 +652,10 @@ img#wholething {
 }
 
 img#vars {
-	width: 70%;
+	width: 80%;
 	margin-bottom: 12.5%;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
 
 }
 
@@ -1221,10 +1221,10 @@ img#y {
 		width: 100%;
 	}
 	img#vars {
-		width: 70%;
+		width: 80%;
 		margin-bottom: 12.5%;
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 10%;
+		margin-right: 10%;
 		margin-top: 12.5%;
 
 	}
